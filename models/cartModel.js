@@ -1,4 +1,4 @@
-// models/cartModel.js
+// models/cartModel.js file
 
 const mongoose = require('mongoose');
 
