@@ -1,4 +1,4 @@
-// app.js
+// app.js main file
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -19,7 +19,7 @@ mongoose.connect('mongodb://localhost:27017/cartDB', {
 .then(() => console.log('Connected to MongoDB'))
 .catch(err => console.error('Could not connect to MongoDB', err));
 
-// Routes
+//all Routes
 app.use('/api/cart', cartRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/product', productRoutes);

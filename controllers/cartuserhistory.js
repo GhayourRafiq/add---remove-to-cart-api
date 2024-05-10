@@ -1,6 +1,6 @@
 const Cart = require('../models/cartModel');
 
-// Get cart history for a user
+// Get cart history for a user check
 exports.getCartHistory = async (req, res) => {
   try {
     const { userId } = req.params;

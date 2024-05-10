@@ -1,4 +1,4 @@
-// routes/cartRoutes.js
+// routes/cartRoutes.js file
 
 const express = require('express');
 const router = express.Router();

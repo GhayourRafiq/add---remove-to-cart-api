@@ -4,7 +4,7 @@ const productSchema = new mongoose.Schema({
   name: { type: String, required: true },
   price: { type: Number, required: true },
   description: { type: String },
-  // Add any additional fields you need for your product model
+  // Add any additional fields you need for your product model in
 });
 
 const Product = mongoose.model('Product', productSchema);

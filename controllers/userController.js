@@ -1,6 +1,6 @@
 const User = require('../models/userModel');
 
-// Controller function to create a new user
+// Controller function too create a new user
 exports.createUser = async (req, res) => {
   try {
     const { username, email, password } = req.body;

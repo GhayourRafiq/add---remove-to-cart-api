@@ -2,7 +2,7 @@ const User = require('../models/userModel');
 const Product = require('../models/productModel');
 const Cart = require('../models/cartModel');
 
-// Add product to cart
+// Add product to in cart 
 exports.addToCart = async (req, res) => {
   try {
     const { productId, userId, quantity } = req.body;

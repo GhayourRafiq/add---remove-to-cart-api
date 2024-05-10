@@ -1,6 +1,6 @@
 const Product = require('../models/productModel');
 
-// Controller function to create a new product
+// Controller function too create a new product
 exports.createProduct = async (req, res) => {
   try {
     const { name, price, description } = req.body;
